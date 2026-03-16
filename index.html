@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="km">
 <head>
+    <script src="https://pl26639935.effectivegatecpm.com/ec/e6/8e/ece68e50c2585c4e60ac6d700aee59b6.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>មូលដ្ឋានគ្រឹះ Python - Next Idea Lab</title>
+    <title>Next Idea Lab - ចំណេះដឹងបច្ចេកវិទ្យា និងការរកចំណូល</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap" rel="stylesheet">
 
@@ -20,36 +22,43 @@
         header { 
             background-color: #2c3e50; 
             color: white; 
-            padding: 40px 20px; 
+            padding: 50px 20px; 
             text-align: center; 
         }
 
         .container { 
-            max-width: 900px;    /* កំណត់ទទឹងអត្ថបទកុំឱ្យរីកធំពេក */
-            margin: 30px auto;   /* ឱ្យប្រអប់នៅចំកណ្ដាល */
-            padding: 40px;       /* គម្លាតសងខាងខាងក្នុង (ការពារអក្សរកៀនគែម) */
+            max-width: 900px; 
+            margin: -30px auto 40px; 
+            padding: 40px; 
             background: white; 
             border-radius: 12px; 
             box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
-            box-sizing: border-box; /* ធានាថា Padding មិនធ្វើឱ្យលើសទទឹងអូសឆ្វេងស្តាំ */
+            box-sizing: border-box; 
         }
 
-        h1 { color: #2c3e50; font-size: 1.8rem; border-bottom: 3px solid #e74c3c; padding-bottom: 15px; }
-        h3 { color: #e67e22; margin-top: 30px; }
+        h1 { color: #2c3e50; font-size: 1.8rem; border-bottom: 3px solid #e74c3c; padding-bottom: 15px; margin-top: 0; }
+        h3 { color: #e67e22; margin-top: 40px; }
 
-        /* ការកំណត់សម្រាប់ Ads ឱ្យនៅកណ្ដាល */
+        .post-preview {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .post-preview:last-child { border-bottom: none; }
+
+        /* Ad Slot Styles */
         .ad-slot { 
             background: #fafafa; 
             padding: 20px; 
             text-align: center; 
             margin: 30px 0; 
             border: 1px dashed #ddd; 
+            border-radius: 8px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 100%;
-            box-sizing: border-box;
         }
 
         .ad-container { width: 100%; display: flex; justify-content: center; }
@@ -59,44 +68,52 @@
         .mobile-ad { display: none; }
 
         @media screen and (max-width: 768px) {
-            .container { 
-                margin: 15px; 
-                padding: 20px; /* បន្ថយ Padding លើទូរសព្ទដើម្បីទុកកន្លែងឱ្យអក្សរ */
-            }
+            .container { margin: 10px; padding: 25px; }
             .desktop-ad { display: none; }
             .mobile-ad { display: flex; justify-content: center; width: 100%; }
             .mobile-ad div { margin: 0 auto !important; }
-            h1 { font-size: 1.4rem; }
+            h1 { font-size: 1.5rem; }
         }
 
         .btn-read {
             background-color: #e74c3c;
             color: white;
-            padding: 10px 20px;
+            padding: 10px 25px;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
             text-decoration: none;
             display: inline-block;
-            margin-top: 10px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: 0.3s;
         }
+
+        .btn-read:hover {
+            background-color: #c0392b;
+            transform: scale(1.05);
+        }
+
+        footer { text-align: center; padding: 40px; color: #888; font-size: 14px; background: #eee; }
     </style>
 </head>
 <body>
 
 <header>
-    <h2>Next Idea Lab</h2>
-    <p>រៀន Python សម្រាប់ការងារអនាគត</p>
+    <h2 style="margin: 0;">Next Idea Lab</h2>
+    <p style="opacity: 0.9;">ចែករំលែកបច្ចេកវិទ្យា និងវិធីសាស្ត្ររកចំណូលឌីជីថល</p>
 </header>
 
 <div class="container">
-    <h1>មូលដ្ឋានគ្រឹះ Python សម្រាប់អ្នកចាប់ផ្ដើមដំបូង ២០២៦</h1>
-    <p>ក្នុងសម័យកាលបច្ចេកវិទ្យា AI ដ៏រីកចម្រើននាឆ្នាំ ២០២៦ នេះ Python នៅតែជាភាសាកម្មវិធីលេខ ១ ដែលមនុស្សគ្រប់គ្នាគួររៀន។ 
-        មិនថាអ្នកចង់ក្លាយជាអ្នកបង្កើតកម្មវិធី (Developer), អ្នកវិភាគទិន្នន័យ (Data Scientist), ឬគ្រាន់តែចង់បង្កើត Robot សម្រាប់ធ្វើការងារស្វ័យប្រវត្តិ (Automation) នោះទេ Python គឺជាកូនសោរដ៏សំខាន់។</p>
-    <a href="Basic-python.html" class="btn-read">អានបន្ត</a>
+    
+    <div class="post-preview">
+        <h1>មូលដ្ឋានគ្រឹះ Python សម្រាប់អ្នកចាប់ផ្ដើមដំបូង ២០២៦</h1>
+        <p>ក្នុងសម័យកាលបច្ចេកវិទ្យា AI ដ៏រីកចម្រើននាឆ្នាំ ២០២៦ នេះ Python នៅតែជាភាសាកម្មវិធីលេខ ១ ដែលមនុស្សគ្រប់គ្នាគួររៀន។ មិនថាអ្នកចង់ក្លាយជាអ្នកបង្កើតកម្មវិធី, អ្នកវិភាគទិន្នន័យ, ឬបង្កើត Robot ស្វ័យប្រវត្តិ Python គឺជាជម្រើសដ៏ល្អបំផុត។</p>
+        <a href="Basic-python.html" class="btn-read">អានមេរៀនបន្ត →</a>
+    </div>
     
     <div class="ad-slot">
-        <p style="font-size: 12px; color: #999; margin-bottom: 10px;">SPONSORED ADS</p>
+        <p style="font-size: 11px; color: #999; margin-bottom: 10px;">SPONSORED ADS</p>
         <div class="ad-container">
             <div class="desktop-ad">
                 <script type="text/javascript">
@@ -112,15 +129,17 @@
         </div>
     </div>
 
-    <h3>យុទ្ធសាស្ត្របង្កើតចំណូលអកម្មជាមួយ Python និង Adsterra</h3>
-    <p>ការបង្កើតវេបសាយជាមួយ GitHub Pages និងការភ្ជាប់ជាមួយ Domain ផ្ទាល់ខ្លួន គឺជាវិធីសាស្ត្រដ៏វៃឆ្លាតបំផុតសម្រាប់អ្នកដែលចង់បង្កើតចំណូលអកម្ម (Passive Income)។ 
-        តាមរយៈការចែករំលែកចំណេះដឹងបច្ចេកទេស និងការប្រើប្រាស់ទម្រង់ពាណិជ្ជកម្មទំនើបដូចជា Social Bar និង Native Ads របស់ Adsterra អ្នកអាចបំប្លែងចំណាប់អារម្មណ៍របស់អ្នកឱ្យទៅជាប្រភពចំណូលបានយ៉ាងមានប្រសិទ្ធភាព។</p>
-    <a href="python-automation.html" class="btn-read">អានបន្ត</a>
+    <div class="post-preview">
+        <h3>យុទ្ធសាស្ត្របង្កើតចំណូលអកម្មជាមួយ Python និង Adsterra</h3>
+        <p>រៀនពីរបៀបបំប្លែងវេបសាយ GitHub Pages របស់អ្នកឱ្យទៅជាប្រភពចំណូលប្រចាំខែ។ ការប្រើប្រាស់ទម្រង់ពាណិជ្ជកម្មទំនើបដូចជា Social Bar និង Native Ads នឹងជួយបង្កើនអត្រាចុច (CTR) និងប្រាក់ចំណូលរបស់អ្នកឱ្យបានខ្ពស់បំផុត។</p>
+        <a href="python-automation.html" class="btn-read">មើលបច្ចេកទេសរកលុយ →</a>
+    </div>
 
 </div>
 
 <footer>
-    &copy; 2026 Next Idea Lab - រក្សាសិទ្ធិគ្រប់យ៉ាង
+    &copy; 2026 Next Idea Lab - រក្សាសិទ្ធិគ្រប់យ៉ាង <br>
+    ចំណេះដឹងជាមូលដ្ឋានគ្រឹះនៃភាពជោគជ័យ
 </footer>
 
 </body>

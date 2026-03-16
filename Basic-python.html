@@ -74,6 +74,16 @@
         
         ul { padding-left: 20px; }
         li { margin-bottom: 10px; }
+
+        .code-block {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
@@ -106,36 +116,44 @@
 
     <h3>១. តើអ្វីទៅជា Python?</h3>
     <p>Python គឺជាភាសាកម្មវិធីកម្រិតខ្ពស់ (High-level programming language) ដែលមានលក្ខណៈពិសេសត្រង់ថាវា "ងាយស្រួលអាន និងងាយស្រួលសរសេរ"។ Syntax ឬរបៀបសរសេរកូដរបស់វា គឺស្រដៀងទៅនឹងភាសាអង់គ្លេសធម្មតា ដែលអនុញ្ញាតឱ្យអ្នកចាប់ផ្ដើមដំបូងអាចយល់បានឆាប់រហ័សក្នុងរយៈពេលខ្លី។</p>
-    
 
     <h3>២. ហេតុអ្វីបានជាត្រូវរៀន Python នៅឆ្នាំ ២០២៦?</h3>
     <ul>
         <li><span class="highlight">ភាពពេញនិយមក្នុងវិស័យ AI:</span> Python គឺជាភាសាចម្បងសម្រាប់បង្កើតបច្ចេកវិទ្យា AI ដូចជា ChatGPT ឬប្រព័ន្ធស្កែនមុខជាដើម។</li>
-        <li><span class="highlight">ការងារស្វ័យប្រវត្តិកម្ម (Automation):</span> អ្នកអាចសរសេរកូដត្រឹមតែប៉ុន្មានជួរ ដើម្បីបញ្ជាឱ្យកុំព្យូទ័រផ្ញើអ៊ីមែលរាប់ពាន់, ទាញយកទិន្នន័យពីវេបសាយ (Web Scraping), ឬបញ្ជាទូរសព្ទឱ្យធ្វើការងារផ្សេងៗជំនួសមនុស្ស។</li>
-        <li><span class="highlight">សហគមន៍ធំទូលាយ:</span> នៅពេលអ្នកជួបបញ្ហា ឬកូដ Error អ្នកនឹងអាចស្វែងរកដំណោះស្រាយបានយ៉ាងងាយស្រួលលើអ៊ីនធឺណិត។<b>Tkinter</b>។</li>
+        <li><span class="highlight">ការងារស្វ័យប្រវត្តិកម្ម (Automation):</span> អ្នកអាចសរសេរកូដត្រឹមតែប៉ុន្មានជួរ ដើម្បីបញ្ជាឱ្យកុំព្យូទ័រផ្ញើអ៊ីមែលរាប់ពាន់, ទាញយកទិន្នន័យពីវេបសាយ (Web Scraping), ឬបញ្ជាទូរសព្ទឱ្យធ្វើការងារផ្សេងៗជំនួសមមនុស្ស។</li>
+        <li><span class="highlight">សហគមន៍ធំទូលាយ:</span> នៅពេលអ្នកជួបបញ្ហា អ្នកនឹងអាចស្វែងរកដំណោះស្រាយបានយ៉ាងងាយស្រួលលើអ៊ីនធឺណិត។</li>
     </ul>
 
     <h3>៣. ចំណុចមូលដ្ឋានដែលត្រូវដឹង (Core Concepts)</h3>
     <p>ដើម្បីក្លាយជា Programmer អ្នកត្រូវយល់ពីចំណុចសំខាន់ៗទាំងនេះ៖</p>
     <ul>
-        <li><span class="highlight">Variables (អថេរ):</span> ប្រៀបដូចជាប្រអប់សម្រាប់ផ្ទុកទិន្នន័យ (ឈ្មោះ, លេខ, ឬតម្លៃផ្សេងៗ)។</li>
+        <li><span class="highlight">Variables (អថេរ):</span> ប្រៀបដូចជាប្រអប់សម្រាប់ផ្ទុកទិន្នន័យ (ឧទាហរណ៍៖ ឈ្មោះ, លេខ)។</li>
         <li><span class="highlight">Data Types:</span> ប្រភេទនៃទិន្នន័យ ដូចជា String (អក្សរ), Integer (លេខរាយ), និង Float (លេខទសភាគ)។</li>
-        <li><span class="highlight">Functions:</span>  ​បណ្ដុំនៃកូដដែលយើងបង្កើតឡើងដើម្បីប្រើប្រាស់ម្តងហើយម្តងទៀត។</li>
-        <li><span class="highlight">Loops:</span> ការបញ្ជាឱ្យកូដដំណើរការដដែលៗ រហូតដល់លក្ខខណ្ឌដែលយើងកំណត់ត្រូវបានបំពេញ។<b>Tkinter</b>។</li>
+        <li><span class="highlight">Functions:</span> បណ្ដុំនៃកូដដែលយើងបង្កើតឡើងដើម្បីប្រើប្រាស់ម្តងហើយម្តងទៀត។</li>
+        <li><span class="highlight">Loops:</span> ការបញ្ជាឱ្យកូដដំណើរការដដែលៗ រហូតដល់លក្ខខណ្ឌត្រូវបានបំពេញ។</li>
     </ul>
 
-  <div class="ad-slot">
+    <div class="ad-slot">
         <p style="font-size: 12px; color: #999; margin-bottom: 10px;">PROMOTED CONTENT</p>
-        <div class="mobile-ad" style="display:flex;">
-             <div id="container-e719383b93425f803df607df0d20e50c"></div>
+        <div class="ad-container">
+            <div id="container-e719383b93425f803df607df0d20e50c"></div>
         </div>
     </div>
 
     <h3>៤. របៀបចាប់ផ្ដើមដំបូងបំផុត</h3>
-    <p><b>១. ដំឡើង Python:</b> ចូលទៅកាន់វេបសាយ python.org ដើម្បីទាញយកកំណែចុងក្រោយបំផុត។<br>
-    <b>២. ជ្រើសរើសកម្មវិធីសរសេរកូដ:</b> អ្នកអាចប្រើ VS Code ឬ PyCharm (ទាំងពីរនេះសុទ្ធតែពេញនិយមបំផុត)។
-    <b>៣. សរសេរកូដដំបូងរបស់អ្នក: សាកល្បងសរសេរ print("Hello, Next Idea Lab!") រួចចុច Run នោះអ្នកនឹងឃើញលទ្ធផលដំបូងរបស់អ្នកបង្ហាញឡើង។ </b></p>
-    <p><center> <b>គន្លឹះជោគជ័យ:</b> កុំព្យាយាមទន្ទេញកូដ ប៉ុន្តែត្រូវព្យាយាមសរសេរវាដោយផ្ទាល់ដៃ និងអនុវត្តឱ្យបានរាល់ថ្ងៃ។</center></p>
+    <p>
+        <b>១. ដំឡើង Python:</b> ចូលទៅកាន់វេបសាយ <a href="https://www.python.org" target="_blank">python.org</a> ដើម្បីទាញយកកំណែចុងក្រោយបំផុត។<br>
+        <b>២. ជ្រើសរើសកម្មវិធីសរសេរកូដ:</b> អ្នកអាចប្រើ VS Code ឬ PyCharm។<br>
+        <b>៣. សរសេរកូដដំបូងរបស់អ្នក:</b> សាកល្បងសរសេរកូដខាងក្រោម៖
+    </p>
+
+    <div class="code-block">
+        print("Hello, Next Idea Lab!")
+    </div>
+
+    <p style="text-align: center;">
+        <span class="highlight">គន្លឹះជោគជ័យ:</span> កុំព្យាយាមទន្ទេញកូដ ប៉ុន្តែត្រូវព្យាយាមសរសេរវាដោយផ្ទាល់ដៃ និងអនុវត្តឱ្យបានរាល់ថ្ងៃ។
+    </p>
     
     <p>សូមតាមដានជាមួយ <b>Next Idea Lab</b> សម្រាប់មេរៀនបន្តបន្ទាប់ទៀតអំពីរបៀបសរសេរកូដ Python ឱ្យកាន់តែស៊ីជម្រៅ!</p>
 

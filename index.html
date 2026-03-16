@@ -1,123 +1,86 @@
 <!DOCTYPE html>
 <html lang="km">
 <head>
+    <script src="https://pl26639935.effectivegatecpm.com/ec/e6/8e/ece68e50c2585c4e60ac6d700aee59b6.js"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>មូលដ្ឋានគ្រឹះ Python - Next Idea Lab</title>
+    <title>យុទ្ធសាស្ត្ររកចំណូល និងមេរៀន Python ២០២៦ - Next Idea Lab</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;700&family=Siemreap&display=swap" rel="stylesheet">
 
     <style>
-        body { 
-            font-family: 'Kantumruy Pro', 'Segoe UI', sans-serif; 
-            line-height: 1.8; 
-            margin: 0; 
-            padding: 0; 
-            background-color: #f4f7f6; 
-            color: #333; 
-        }
-
-        header { 
-            background-color: #2c3e50; 
-            color: white; 
-            padding: 40px 20px; 
-            text-align: center; 
-        }
-
-        .container { 
-            max-width: 900px;    /* កំណត់ទទឹងអត្ថបទកុំឱ្យរីកធំពេក */
-            margin: 30px auto;   /* ឱ្យប្រអប់នៅចំកណ្ដាល */
-            padding: 40px;       /* គម្លាតសងខាងខាងក្នុង (ការពារអក្សរកៀនគែម) */
-            background: white; 
-            border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
-            box-sizing: border-box; /* ធានាថា Padding មិនធ្វើឱ្យលើសទទឹងអូសឆ្វេងស្តាំ */
-        }
-
-        h1 { color: #2c3e50; font-size: 1.8rem; border-bottom: 3px solid #e74c3c; padding-bottom: 15px; }
-        h3 { color: #e67e22; margin-top: 30px; }
-
-        /* ការកំណត់សម្រាប់ Ads ឱ្យនៅកណ្ដាល */
-        .ad-slot { 
-            background: #fafafa; 
-            padding: 20px; 
-            text-align: center; 
-            margin: 30px 0; 
-            border: 1px dashed #ddd; 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .ad-container { width: 100%; display: flex; justify-content: center; }
-
-        /* Responsive Ads Control */
-        .desktop-ad { display: block; }
-        .mobile-ad { display: none; }
-
-        @media screen and (max-width: 768px) {
-            .container { 
-                margin: 15px; 
-                padding: 20px; /* បន្ថយ Padding លើទូរសព្ទដើម្បីទុកកន្លែងឱ្យអក្សរ */
-            }
-            .desktop-ad { display: none; }
-            .mobile-ad { display: flex; justify-content: center; width: 100%; }
-            .mobile-ad div { margin: 0 auto !important; }
-            h1 { font-size: 1.4rem; }
-        }
-
-        .btn-read {
-            background-color: #e74c3c;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-            margin-top: 10px;
-        }
+        body { font-family: 'Kantumruy Pro', sans-serif; line-height: 1.8; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background-color: #2c3e50; color: white; padding: 50px 20px; text-align: center; }
+        .container { max-width: 850px; margin: -30px auto 40px; padding: 40px; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); box-sizing: border-box; }
+        h1 { color: #2c3e50; font-size: 2rem; border-left: 8px solid #e74c3c; padding-left: 15px; margin-bottom: 25px; }
+        h3 { color: #e67e22; margin-top: 35px; background: #fff5eb; padding: 10px; border-radius: 5px; }
+        .ad-slot { background: #fafafa; padding: 20px; text-align: center; margin: 30px 0; border: 1px dashed #bbb; border-radius: 8px; }
+        .highlight { background-color: #fff3cd; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #d35400; }
+        .btn-action { display: inline-block; background: #3498db; color: white; padding: 12px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: 0.3s; }
+        .btn-action:hover { background: #2980b9; transform: translateY(-2px); }
+        footer { text-align: center; padding: 40px; color: #7f8c8d; font-size: 14px; background: #eee; }
+        @media screen and (max-width: 768px) { .container { margin: 10px; padding: 20px; } h1 { font-size: 1.5rem; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h2>Next Idea Lab</h2>
-    <p>រៀន Python សម្រាប់ការងារអនាគត</p>
+    <h2 style="margin:0;">Next Idea Lab</h2>
+    <p style="opacity: 0.8;">ចែករំលែកបច្ចេកវិទ្យា និងវិធីសាស្ត្ររកចំណូលឌីជីថល</p>
 </header>
 
 <div class="container">
-    <h1>មូលដ្ឋានគ្រឹះ Python សម្រាប់អ្នកចាប់ផ្ដើមដំបូង ២០២៦</h1>
+    <h1>យុទ្ធសាស្ត្របង្កើតចំណូលអកម្មជាមួយ Python និង Adsterra</h1>
+    
+    <p>ការបង្កើតវេបសាយជាមួយ <b>GitHub Pages</b> និងការភ្ជាប់ជាមួយ <b>Domain ផ្ទាល់ខ្លួន</b> គឺជាវិធីសាស្ត្រដ៏វៃឆ្លាតបំផុតសម្រាប់អ្នកដែលចង់បង្កើតចំណូលអកម្ម (Passive Income)។ តាមរយៈការចែករំលែកចំណេះដឹងបច្ចេកទេស និងការប្រើប្រាស់ទម្រង់ពាណិជ្ជកម្មទំនើបដូចជា Social Bar របស់ Adsterra អ្នកអាចបំប្លែងចំណាប់អារម្មណ៍របស់អ្នកឱ្យទៅជាប្រភពចំណូលបានយ៉ាងមានប្រសិទ្ធភាព។</p>
 
     <div class="ad-slot">
-        <p style="font-size: 12px; color: #999; margin-bottom: 10px;">SPONSORED ADS</p>
-        <div class="ad-container">
-            <div class="desktop-ad">
-                <script type="text/javascript">
-                    atOptions = { 'key' : 'de62401efbe030b317d52fa54f6df018', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
-                </script>
-                <script type="text/javascript" src="https://www.highperformanceformat.com/de62401efbe030b317d52fa54f6df018/invoke.js"></script>
-            </div>
-            
-            <div class="mobile-ad">
-                <script async="async" data-cfasync="false" src="https://pl26640076.effectivegatecpm.com/e719383b93425f803df607df0d20e50c/invoke.js"></script>
-                <div id="container-e719383b93425f803df607df0d20e50c"></div>
-            </div>
-        </div>
+        <p style="font-size: 11px; color: #aaa; margin-top: 0;">SPONSORED CONTENT</p>
+        <script type="text/javascript">
+            atOptions = { 'key' : 'de62401efbe030b317d52fa54f6df018', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+        </script>
+        <script type="text/javascript" src="https://www.highperformanceformat.com/de62401efbe030b317d52fa54f6df018/invoke.js"></script>
     </div>
 
-    <h3>យុទ្ធសាស្ត្របង្កើតចំណូលអកម្មជាមួយ Python និង Adsterra</h3>
-    <p>ការបង្កើតវេបសាយជាមួយ GitHub Pages និងការភ្ជាប់ជាមួយ Domain ផ្ទាល់ខ្លួន គឺជាវិធីសាស្ត្រដ៏វៃឆ្លាតបំផុតសម្រាប់អ្នកដែលចង់បង្កើតចំណូលអកម្ម (Passive Income)។ 
-        តាមរយៈការចែករំលែកចំណេះដឹងបច្ចេកទេស និងការប្រើប្រាស់ទម្រង់ពាណិជ្ជកម្មទំនើបដូចជា Social Bar និង Native Ads របស់ Adsterra អ្នកអាចបំប្លែងចំណាប់អារម្មណ៍របស់អ្នកឱ្យទៅជាប្រភពចំណូលបានយ៉ាងមានប្រសិទ្ធភាព។</p>
-    <a href="python-automation.html" class="btn-read">អានបន្ត</a>
+    <p>ក្នុងឆ្នាំ ២០២៦ នេះ <b>Python</b> នៅតែរក្សាតំណែងជាភាសាកម្មវិធីដែលពេញនិយមបំផុត។ វាមាន "Syntax" ស្រដៀងនឹងភាសាអង់គ្លេសធម្មតា ដែលធ្វើឱ្យយើងងាយស្រួលយល់ រៀនបានរហ័ស និងអាចយកទៅបង្កើត Tool សម្រាប់រកលុយបានច្រើនសណ្ឋាន។</p>
 
+    <h3>១. ហេតុអ្វីបានជាត្រូវរៀន Python?</h3>
+    <p>Python មិនត្រឹមតែជាភាសាកូដទេ តែវាជាជំនួយការដ៏ពូកែ៖</p>
+    <ul>
+        <li><span class="highlight">Automation:</span> បង្កើត Robot បញ្ជាទូរសព្ទឱ្យ Like TikTok ឬ Auto Comment។</li>
+        <li><span class="highlight">Data Management:</span> គ្រប់គ្រងទិន្នន័យភ្ញៀវមង្គលការ ឬបញ្ជីអីវ៉ាន់ក្នុងហាង។</li>
+        <li><span class="highlight">GUI Apps:</span> បង្កើតកម្មវិធីដែលមានប៊ូតុងចុចស្អាតៗជាមួយបណ្ណាល័យ <b>Tkinter</b>។</li>
+    </ul>
+
+    <h3>២. ឧបករណ៍សំខាន់ៗសម្រាប់ធ្វើ Automation</h3>
+    <p>ប្រសិនបើអ្នកចង់ធ្វើស្វ័យប្រវត្តិកម្ម អ្នកគួរស្វែងយល់ពី៖</p>
+    <ul>
+        <li><b>Selenium & Playwright:</b> ប្រើសម្រាប់បញ្ជា Browser ឱ្យចូល Website និងទាញយកទិន្នន័យ។</li>
+        <li><b>ADB (Android Debug Bridge):</b> ប្រើសម្រាប់ភ្ជាប់ Python ទៅកាន់ទូរសព្ទ Android (ពេញនិយមសម្រាប់ធ្វើ TikTok Bot)។</li>
+    </ul>
+
+    <div class="ad-slot">
+        <script async="async" data-cfasync="false" src="https://pl26640076.effectivegatecpm.com/e719383b93425f803df607df0d20e50c/invoke.js"></script>
+        <div id="container-e719383b93425f803df607df0d20e50c"></div>
+    </div>
+
+    <h3>៣. ជំហានដំបូងសម្រាប់អ្នករៀន</h3>
+    <p>ដើម្បីចាប់ផ្ដើម អ្នកគ្រាន់តែទាញយក Python ពីវេបសាយផ្លូវការ រួចដំឡើងកម្មវិធីសរសេរកូដដូចជា <b>VS Code</b> ឬ <b>PyCharm</b>។ ចូរចាប់ផ្ដើមពីការសរសេរកូដងាយៗ រួចឈានទៅដល់ការប្រើ Loop ដើម្បីធ្វើការងារដដែលៗ។</p>
+
+    <div style="background: #e8f4fd; padding: 20px; border-radius: 10px; margin-top: 30px;">
+        <h4 style="margin-top:0; color: #2980b9;">💡 គន្លឹះបន្ថែមសម្រាប់ការរកលុយ៖</h4>
+        <p style="margin-bottom:0;">ព្យាយាមសរសេរអត្ថបទដែលដោះស្រាយបញ្ហាឱ្យអ្នកអាន (ឧទាហរណ៍៖ "របៀបទាញយកវីដេអូ TikTok គ្មាន Watermark")។ នៅពេលអត្ថបទរបស់អ្នកមានប្រយោជន៍ មនុស្សនឹងចូលមើលកាន់តែច្រើន ហើយចំណូលពី Adsterra របស់អ្នកក៏នឹងកើនឡើងតាមនោះដែរ!</p>
+    </div>
+
+    <center>
+        <a href="index.html" class="btn-action">← ត្រលប់ទៅទំព័រដើម</a>
+    </center>
 </div>
 
 <footer>
-    &copy; 2026 Next Idea Lab - រក្សាសិទ្ធិគ្រប់យ៉ាង
+    &copy; 2026 Next Idea Lab | រក្សាសិទ្ធិគ្រប់យ៉ាង <br>
+    ចំណេះដឹងជាមូលដ្ឋានគ្រឹះនៃភាពជោគជ័យ
 </footer>
 
 </body>

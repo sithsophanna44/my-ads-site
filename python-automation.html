@@ -40,43 +40,52 @@
 
     <div class="ad-slot">
     <center>
-        <p style="font-size: 12px; color: #999; margin-bottom: 5px;">SPONSORED ADS</p>
+        <p style="font-size: 12px; color: #999; margin-bottom: 10px; font-family: sans-serif;">SPONSORED ADS</p>
         
         <style>
-            /* កំណត់ការបង្ហាញតាមទំហំអេក្រង់ */
+            /* កំណត់ Flexbox ដើម្បីឱ្យ Ad នៅកណ្តាលជានិច្ច */
+            .ad-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                overflow: hidden;
+            }
+
+            /* ការបង្ហាញតាមទំហំអេក្រង់ */
             .desktop-ad { display: block; }
             .mobile-ad { display: none; }
 
             @media screen and (max-width: 768px) {
                 .desktop-ad { display: none; }
-                .mobile-ad { display: block; }
+                .mobile-ad { 
+                    display: flex; 
+                    justify-content: center;
+                    width: 100%;
+                }
+                /* បង្ខំឱ្យ Container របស់ Adsterra នៅកណ្តាលលើ Mobile */
+                .mobile-ad div { margin: 0 auto !important; }
             }
         </style>
 
-        <div class="desktop-ad">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : 'de62401efbe030b317d52fa54f6df018',
-                    'format' : 'iframe',
-                    'height' : 90,
-                    'width' : 728,
-                    'params' : {}
-                };
-            </script>
-            <script type="text/javascript" src="https://www.highperformanceformat.com/de62401efbe030b317d52fa54f6df018/invoke.js"></script>
-        </div>
+        <div class="ad-container">
+            <div class="desktop-ad">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'de62401efbe030b317d52fa54f6df018',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="https://www.highperformanceformat.com/de62401efbe030b317d52fa54f6df018/invoke.js"></script>
+            </div>
 
-        <div class="mobile-ad">
-            <script>
-              atOptions = {
-                'key' : '7147cccb4a68ca1f89cecbb0e949448f',
-                'format' : 'iframe',
-                'height' : 50,
-                'width' : 320,
-                'params' : {}
-              };
-            </script>
-            <script src="https://www.highperformanceformat.com/7147cccb4a68ca1f89cecbb0e949448f/invoke.js"></script>
+            <div class="mobile-ad">
+                <script async="async" data-cfasync="false" src="https://pl26640076.effectivegatecpm.com/e719383b93425f803df607df0d20e50c/invoke.js"></script>
+                <div id="container-e719383b93425f803df607df0d20e50c"></div>
+            </div>
         </div>
     </center>
 </div>
